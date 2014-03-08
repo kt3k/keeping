@@ -12,11 +12,15 @@ var usage = function () {
 };
 
 var statistics = function (rtts) {
-    var avg = rtts.reduce(function (x, y) {
-        return x + y;
-    }) / rtts.length;
+    console.log('avg=' + average(rtts) + 'ms');
+    rtts.shift();
+    console.log('avg[1:]=' + average(rtts) + 'ms');
+};
 
-    console.log('avg=' + avg + 'ms');
+var average = function (array) {
+    return array.reduce(function (x, y) {
+        return x + y;
+    }) / array.length;
 };
 
 var cli = function () {
