@@ -1,0 +1,27 @@
+{
+  "name": "keeping",
+  "version": "0.0.1",
+  "description": "A tool for measuring round-trip time of http requests under a Keep-Alived connection.",
+  "main": "lib/keeping.js",
+  "bin": {
+    "keeping": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kt3k/keeping.git"
+  },
+  "keywords": [
+    "ping",
+    "http",
+    "keep-alive"
+  ],
+  "author": "Yoshiya Hinosawa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kt3k/keeping/issues"
+  },
+  "homepage": "https://github.com/kt3k/keeping"
+}
