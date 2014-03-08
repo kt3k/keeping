@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/kt3k/keeping/issues"
   },
-  "homepage": "https://github.com/kt3k/keeping"
+  "homepage": "https://github.com/kt3k/keeping",
+  "dependencies": {
+    "forever-agent": "~0.5.2"
+  }
 }
