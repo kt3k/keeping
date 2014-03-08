@@ -28,11 +28,6 @@ var cli = function () {
 
     var urlStr = process.argv[2];
 
-    if (!/^https?:\/\//.test(urlStr)) {
-        usage();
-        process.exit(1);
-    }
-
     keeping(urlStr, 10, console, statistics);
 };
 
