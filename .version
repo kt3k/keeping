@@ -1,0 +1,7 @@
+---
+version: 0.0.1
+files:
+  README.md: v%.%.%
+  lib/keeping.js: v%.%.%
+  bin/cli.js: v%.%.%
+  package.json: '"version": "%.%.%"'
