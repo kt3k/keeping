@@ -1,6 +1,6 @@
 {
   "name": "keeping",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A tool for measuring round-trip time of http requests under a Keep-Alived connection.",
   "main": "lib/keeping.js",
   "bin": {
